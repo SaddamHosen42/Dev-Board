@@ -4,3 +4,9 @@ function showDate(){
     document.getElementById("date").innerHTML = formatDate;
 }
 showDate();
+
+function showTime(){
+    let Time = new Date();
+    let formatTime = Time.toLocaleTimeString();
+    return formatTime;
+}
