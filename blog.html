@@ -34,8 +34,58 @@
             </div>
         </nav>
     </header>
-    <main>
-        
+    <main class="container mx-auto w-[85%] bg-gray-100 mt-9">
+        <section>
+            <h1 class="text-center text-4xl  font-bold">Blogs</h1>
+            <div class="space-y-5 p-6 mt-8">
+                <h1 class="text-3xl font-semibold">Question-1: What are the different ways to select an element in the DOM?
+                </h1>
+                <p class="text-2xl opacity-70 max-w-screen-xl">In JavaScript, there are multiple ways to select an element in the DOM. Some of the most common ways are:
+                    <br>
+                    1. getElementById(): This method is used to select an element by its id attribute.
+                    <br>
+                    2. getElementsByClassName(): This method is used to select elements by their class name.
+                    <br>
+                    3. getElementsByTagName(): This method is used to select elements by their tag name.
+                    <br>
+                    4. querySelector(): This method is used to select the first element that matches a specified CSS selector.
+                    <br>
+                    5. querySelectorAll(): This method is used to select all elements that match a specified CSS selector.
+                </p>
+            </div>
+            <div class="space-y-5 p-6 mt-8">
+                <h1 class="text-3xl font-semibold">Question-2: What is the difference between innerHTML, innerText, and textContent ?
+                </h1>
+                <p class="text-2xl opacity-70 max-w-screen-xl">
+                    The innerHTML property sets or returns the HTML content inside an element. The innerText property sets or returns the text content that is only visible text inside an element.
+                    The textContent property sets or returns the all text content,including the hidden elements.
+
+                </p>
+            </div>
+            <div class="space-y-5 p-6 mt-8">
+                <h1 class="text-3xl font-semibold">Question-3: What is event delegation in the DOM?
+                </h1>
+                <p class="text-2xl opacity-70 max-w-screen-xl">
+                    Event delegation is a technique in JavaScript where a parent element is used to handle events for its child elements.Uses event bubbling to handle events in a more efficient way.
+                    Use event.target to finde which element was clicked.            
+                </p>
+            </div>
+            <div class="space-y-5 p-6 mt-8">
+                <h1 class="text-3xl font-semibold">Question-4: What is event bubbling in the DOM?
+                </h1>
+                <p class="text-2xl opacity-70 max-w-screen-xl">
+                    Event bubbling is a mechanism in which an event is first captured and handled by the innermost element and then propagated to outer elements.
+                    It is the default behavior of the browser.
+                </p>
+            </div>
+            <div class="space-y-5 p-6 mt-8">
+                <h1 class="text-3xl font-semibold">Question-5: How do you create, add, and remove elements using JavaScript?
+                </h1>
+                <p class="text-2xl opacity-70 max-w-screen-xl">
+                    To create an element, you can use the document.createElement() method. To add an element to the DOM, you can use the appendChild() method . To remove an element from the DOM, you can use the removeChild() method.
+                </p>
+            </div>
+        </section>
     </main>
     <script src="utilitis/backHomePage.js"></script>
 </body>
